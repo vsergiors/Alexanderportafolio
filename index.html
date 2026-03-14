@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Alexander | Minecraft Developer</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial;
+}
+
+body{
+background:#0f172a;
+color:white;
+line-height:1.6;
+overflow-x:hidden;
+}
+
+/* HEADER */
+
+header{
+text-align:center;
+padding:90px 20px;
+background:linear-gradient(180deg,#020617,#0f172a);
+}
+
+header h1{
+font-size:50px;
+color:#00D9C7;
+letter-spacing:2px;
+}
+
+header p{
+color:#94a3b8;
+margin-top:10px;
+font-size:18px;
+}
+
+/* SECTIONS */
+
+section{
+max-width:1100px;
+margin:auto;
+padding:80px 20px;
+}
+
+h2{
+font-size:32px;
+margin-bottom:35px;
+color:#00D9C7;
+}
+
+/* GRID */
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+}
+
+/* 3D CARDS */
+
+.card{
+background:#020617;
+padding:25px;
+border-radius:14px;
+border:1px solid #1e293b;
+transition:.4s;
+transform-style:preserve-3d;
+}
+
+.card:hover{
+transform:rotateY(6deg) rotateX(6deg) scale(1.03);
+border-color:#00D9C7;
+box-shadow:0 15px 35px rgba(0,217,199,0.15);
+}
+
+/* TEXT */
+
+p{
+color:#cbd5f5;
+}
+
+ul{
+margin-top:10px;
+margin-left:20px;
+}
+
+li{
+margin-bottom:5px;
+}
+
+/* IMAGES */
+
+img{
+width:100%;
+border-radius:10px;
+margin-top:12px;
+transition:.3s;
+}
+
+img:hover{
+transform:scale(1.03);
+}
+
+/* CONTACT */
+
+.contact{
+text-align:center;
+}
+
+button{
+background:#00D9C7;
+border:none;
+padding:14px 25px;
+color:#02121c;
+border-radius:8px;
+cursor:pointer;
+margin-top:15px;
+font-weight:bold;
+font-size:16px;
+}
+
+button:hover{
+opacity:.8;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:25px;
+border-top:1px solid #1e293b;
+color:#64748b;
+}
+
+/* SCROLL ANIMATION */
+
+.reveal{
+opacity:0;
+transform:translateY(40px);
+transition:all .8s ease;
+}
+
+.reveal.active{
+opacity:1;
+transform:none;
+}
+
+</style>
+</head>
+
+
+<body>
+
+<header>
+
+<h1>Alexander</h1>
+<p>Minecraft Network Developer</p>
+
+</header>
+
+
+
+<section class="reveal">
+
+<h2>¿Cómo empecé?</h2>
+
+<div class="card">
+
+<p>
+Cuando empecé a jugar Minecraft aproximadamente durante 1 año,
+me interesaron los servidores y sus minijuegos.
+Desde ahí comencé a experimentar creando servidores.
+</p>
+
+<br>
+
+<p>
+Primero con Aternos y luego con otros hostings gratuitos
+como Hidencloud, empezando por una modalidad Survival.
+</p>
+
+<br>
+
+<p>
+Luego me interesé por las Networks, creando un lobby
+y varias modalidades en un solo servidor.
+</p>
+
+<br>
+
+<p>
+Con el tiempo fui aprendiendo más mediante wikis de plugins
+y videos sobre Velocity y Bungeecord.
+</p>
+
+<br>
+
+<p>
+Mi primer proyecto fue <b>ORTIMC NETWORK</b>.
+Desde entonces fui aprendiendo la mayoría de funciones
+necesarias para gestionar una network.
+</p>
+
+<br>
+
+<p>
+También creé mi propia comunidad llamada
+<b>Donatier Community</b>, donde ayudamos a
+personas a crear sus servidores de Minecraft.
+</p>
+
+</div>
+
+</section>
+
+
+
+<section class="reveal">
+
+<h2>Experiencia</h2>
+
+<div class="card">
+
+<h3>Servidores</h3>
+
+<ul>
+<li>Venifly — Dev (cerrado)</li>
+<li>Minefark — ayudando en algunas cosas</li>
+<li>La Jerarquía — Dev</li>
+<li>MineSkys — Dev</li>
+<li>Horizon Network — Dev</li>
+</ul>
+
+<br>
+
+<h3>Estudios / Networks</h3>
+
+<ul>
+<li>Mineblash — Developer</li>
+<li>Infernium — Dev</li>
+<li>Voltium — Founder</li>
+<li>Valkirian — Dev</li>
+<li>FishMC — Dev</li>
+<li>OrtiMC — Dev</li>
+<li>RotiumMC — Developer</li>
+</ul>
+
+</div>
+
+</section>
+
+
+
+<section class="reveal">
+
+<h2>Especialización</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Survival</h3>
+<p>Configuración avanzada de servidores survival.</p>
+</div>
+
+<div class="card">
+<h3>BoxPvP</h3>
+<p>Configuración completa de servidores BoxPvP.</p>
+</div>
+
+<div class="card">
+<h3>Practice</h3>
+<p>Configuración de servidores PvP.</p>
+</div>
+
+<div class="card">
+<h3>Otras modalidades</h3>
+<p>Bedwars, Skywars, Gens, Prisión y cualquier modalidad.</p>
+</div>
+
+</div>
+
+</section>
+
+
+
+<section class="reveal">
+
+<h2>Mis proyectos</h2>
+
+<p>Estos no son todos los proyectos, pero son algunos que tengo guardados.</p>
+
+<br>
+
+<div class="grid">
+
+<div class="card">
+
+<h3>OrtiMC Network</h3>
+
+<p>
+Conexión completa de la network,
+configuración del MOTD, logo y otras configuraciones.
+</p>
+
+<a href="ortimc.jpg" target="_blank">
+<img src="ortimc.jpg">
+</a>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>Horizon Network</h3>
+
+<p>
+Optimización de TPS reduciendo entidades
+para disminuir el lag.
+</p>
+
+<ul>
+<li>Menú del lobby</li>
+<li>Menú de kits</li>
+<li>NameTags</li>
+<li>Configuraciones internas</li>
+</ul>
+
+<a href="horizon1.jpg" target="_blank">
+<img src="horizon1.jpg">
+</a>
+
+<a href="horizon2.jpg" target="_blank">
+<img src="horizon2.jpg">
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section class="contact reveal">
+
+<h2>Contacto</h2>
+
+<p>Email: yonaikerlinares@gmail.com</p>
+<p>Teléfono: +58 04162039392</p>
+<p>Discord: alexander_yt_gg_2</p>
+
+<button onclick="copiar()">Copiar Discord</button>
+
+</section>
+
+
+
+<footer>
+
+<p>© 2026 Alexander - Minecraft Developer</p>
+
+</footer>
+
+
+
+<script>
+
+function copiar(){
+navigator.clipboard.writeText("alexander_yt_gg_2")
+alert("Discord copiado")
+}
+
+function reveal(){
+
+let reveals=document.querySelectorAll(".reveal")
+
+for(let i=0;i<reveals.length;i++){
+
+let windowHeight=window.innerHeight
+let elementTop=reveals[i].getBoundingClientRect().top
+let elementVisible=120
+
+if(elementTop < windowHeight - elementVisible){
+reveals[i].classList.add("active")
+}
+
+}
+
+}
+
+window.addEventListener("scroll",reveal)
+
+</script>
+
+
+</body>
+</html>
